@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #0056b3;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero input {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.featured {
+    margin: 50px 0;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.destination-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
